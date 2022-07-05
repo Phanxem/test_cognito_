@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "testsignupsigninrecp744d3ef4": {
+      "service": "Cognito",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

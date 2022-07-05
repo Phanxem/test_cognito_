@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-testsignupsigninrecp-dev-112417-authRole",
+      "UnauthRoleArn": "arn:aws:iam::535233387769:role/amplify-testsignupsigninrecp-dev-112417-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::535233387769:role/amplify-testsignupsigninrecp-dev-112417-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-testsignupsigninrecp-dev-112417-deployment",
+      "UnauthRoleName": "amplify-testsignupsigninrecp-dev-112417-unauthRole",
+      "StackName": "amplify-testsignupsigninrecp-dev-112417",
+      "StackId": "arn:aws:cloudformation:eu-west-1:535233387769:stack/amplify-testsignupsigninrecp-dev-112417/7189a660-e57a-11ec-8823-0ac14aba97eb",
+      "AmplifyAppId": "d3js49zmowhydx"
+    },
+    "categories": {
+      "auth": {
+        "testsignupsigninrecp744d3ef4": {
+          "userPoolId": "eu-west-1_G8UfmqIfL",
+          "userPoolName": "natour-test",
+          "webClientId": "3d05ie02hnqj20pg6fkd8bu97r",
+          "nativeClientId": "37vbra81aefro1315pe1bjesa7",
+          "identityPoolId": "eu-west-1:05d4b3e3-fd7d-47ee-af7a-cd914b4079bf",
+          "identityPoolName": "natour-test-id",
+          "allowUnauthenticatedIdentities": true,
+          "authRoleArn": "arn:aws:iam::535233387769:role/Cognito_natourtestidAuth_Role",
+          "authRoleName": "Cognito_natourtestidAuth_Role",
+          "unauthRoleArn": "arn:aws:iam::535233387769:role/Cognito_natourtestidUnauth_Role",
+          "unauthRoleName": "Cognito_natourtestidUnauth_Role"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test_Cognito">
+
+    <application
+        android:name="com.example.test_Cognito.AmplifyConfig"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TestSignUp_SignIn_RecPass">
+        <activity
+            android:name="com.example.test_Cognito.Activities.AutenticazioneActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.test_Cognito.Activities.CompletaRecuperoPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.test_Cognito.Activities.IniziaRecuperoPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.test_Cognito.Activities.HomeGuestActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.test_Cognito.Activities.RegistrazioneActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.test_Cognito.Activities.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.test_Cognito.Activities.AttivaAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.test_Cognito.Activities.SplashPageActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
